@@ -16,7 +16,7 @@ export const getUser = async (name) => {
     full_name: repo.full_name,
     language: repo.language,
   }));
-  console.log(userJson);
+
   return {
     userJson,
     repos,
